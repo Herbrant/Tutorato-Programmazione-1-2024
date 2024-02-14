@@ -4,7 +4,7 @@ Codici per il tutorato qualificato di Programmazione 1 @ DMI, UNICT (2024)
 ## Lezioni
 | Data | Esercizio |
 | ----- | --------- |
-| 15/02/2024 | Esame 02/02/2023 |
+| 15/02/2024 | [Esame 02/02/2023](./esami/02_02_2023/) |
 
 ## Stars
 
