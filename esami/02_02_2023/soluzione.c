@@ -102,8 +102,8 @@ void printLista(lista l) {
 }
 
 // Funzione che restituisce in output il numero di elemento presenti in lista
-// NOTA: chiaramente, una soluzione più efficiente può essere quella di utilizzare
-// un contatore all'interno della struttura lista.
+// NOTA: chiaramente, una soluzione più efficiente può essere quella di
+// utilizzare un contatore all'interno della struttura lista.
 unsigned getN(const lista l) {
     nodo_t *ptr = l;
     unsigned counter = 0;
