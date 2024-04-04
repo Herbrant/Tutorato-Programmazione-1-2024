@@ -74,6 +74,7 @@ void removeNode(lista *l, nodo_t *n) {
     // Verifico se l'elemento da eliminare si trova in testa
     if (n == *l) {
         *l = n->next;
+        free(n->cliente);
         free(n);
         return;
     }
@@ -86,9 +87,11 @@ void removeNode(lista *l, nodo_t *n) {
         ptr = ptr->next;
     }
 
-    ptr->next = n->next;
-    free(n->cliente);
-    free(n);
+    if (ptr->next != NULL) {
+        ptr->next = n->next;
+        free(n->cliente);
+        free(n);
+    }
 }
 
 // Stampa la lista sullo standard output (funzione utile per testare il codice)
