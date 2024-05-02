@@ -10,6 +10,7 @@ Codici per il tutorato qualificato di Programmazione 1 @ DMI, UNICT (2024)
 | 04/04/2024 | [Esame 06/09/2023](./esami/06_09_2023) |
 | 11/04/2024 | [Esame 27/06/2023](./esami/27_06_2023/) |
 | 18/04/2024 | [Esame 05/12/2023](./esami/5_12_2023) |
+| 02/05/2024 | [Esame 20/09/2023](./esami/21_09_2023) |
 
 ## Contatti
 - [Email](mailto:davide.carnemolla@unict.it)
